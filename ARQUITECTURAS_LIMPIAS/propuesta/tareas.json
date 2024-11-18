@@ -1,0 +1,26 @@
+[
+    {
+        "id_tarea": 1,
+        "titulo": "tarea 1",
+        "descripcion": "descripcion 1",
+        "completada": true
+    },
+    {
+        "id_tarea": 2,
+        "titulo": "Mi tarea",
+        "descripcion": "Descripci\u00f3n de la tarea",
+        "completada": false
+    },
+    {
+        "id_tarea": 3,
+        "titulo": "Mi tarea",
+        "descripcion": "Descripci\u00f3n de la tarea",
+        "completada": false
+    },
+    {
+        "id_tarea": 4,
+        "titulo": "tarea 1",
+        "descripcion": "descripcion 1",
+        "completada": false
+    }
+]
