@@ -3,6 +3,6 @@
         "id_tarea": 1,
         "titulo": "prueba",
         "descripcion": "prueba",
-        "completada": false
+        "completada": true
     }
 ]
