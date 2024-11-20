@@ -4,5 +4,11 @@
         "nombre": "prueba",
         "precio": 1000.0,
         "cantidad": 3
+    },
+    {
+        "id_producto": 2,
+        "nombre": "prueba 2",
+        "precio": 2500,
+        "cantidad": 4
     }
 ]
