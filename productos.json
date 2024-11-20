@@ -1,0 +1,8 @@
+[
+    {
+        "id_producto": 1,
+        "nombre": "prueba",
+        "precio": 1000.0,
+        "cantidad": 3
+    }
+]
