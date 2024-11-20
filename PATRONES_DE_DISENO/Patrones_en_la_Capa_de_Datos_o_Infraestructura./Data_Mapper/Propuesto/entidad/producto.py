@@ -7,3 +7,4 @@ class Producto:
 
     def __str__(self):
         return f"Producto {self.id_producto}: {self.nombre} - Precio: {self.precio}, Cantidad: {self.cantidad}"
+    
