@@ -1,0 +1,13 @@
+Ejecutar con: python3 app.py
+Si tienes problemas al ejecutar el servidor, ya que el puerto está 
+ocupado, puedes hacer lo siguiente:
+Ocupar Ctrl + C (no Z). Con esto pararas el servidor.
+Si no resulta, intenta lo siguiente:
+EN WINDOWS
+netstat -ano | findstr :5000
+taskkill /PID <PID> /F
+EN MAC
+lsof -i :5000
+kill -9 <PID>
+O BIEN PONER OTRO PUERTO AL EJECUTAR FLASK:
+flask run --port=5001

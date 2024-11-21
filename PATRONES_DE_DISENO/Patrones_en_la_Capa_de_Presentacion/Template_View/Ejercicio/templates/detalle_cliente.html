@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Lista de Clientes{% endblock %}
+{% block header %}Lista de Clientes{% endblock %}
+{% block content %}
+<ul>
+    {% for cliente in clientes %}
+    <li>
+        <a href="{{ url_for('detalle_cliente', id_cliente=cliente.id_cliente) }}">{{ cliente.nombre }}</a>
+         - Email: {{ cliente.email }} - Teléfono: {{ cliente.telefono }}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
