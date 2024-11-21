@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+    <title>Lista de Productos</title>
+</head>
+<body>
+    <h1>Lista de Productos</h1>
+    <ul>
+        {% for producto in productos %}
+        <li>{{ producto.nombre }} - Precio: {{ producto.precio }} - Cantidad: {{ producto.cantidad }} 
+            <a href="{{ url_for('eliminar_producto', id_producto=producto.id_producto) }}">Eliminar</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('agregar_producto') }}">Agregar Producto</a>
+</body>
+</html>
